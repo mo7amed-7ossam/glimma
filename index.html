@@ -1,15 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
+
 <body>
-    <header>
-        <img src="images/hero.png" class="w-full">
-    </header>
+    <main class="relative w-full h-[90vh]">
+        <img src="images/hero.svg" class="bg w-full h-[100%] object-cover object-center" alt="">
+
+        <section
+            class="content w-full h-[100%] absolute top-0 left-0 sm:px-10 px-5 sm:py-10 py-5 flex flex-col gap-5 sm:gap-10 justify-center items-start">
+
+            <header id="main-header"
+                class="fixed top-0 left-0 right-0 z-40 w-full pointer-events-none py-3 sm:px-10 px-5 transition-all duration-300">
+                <div class="w-full flex items-center justify-between">
+                    <a href="#home" id="brand-logo-island"
+                        class="pointer-events-auto group flex items-center gap-2 sm:gap-2.5 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full backdrop-blur-md border border-[#F0DDD8]/90 transition-all select-none hover:bg-white hover:shadow-md bg-white/85 shadow-xs">
+                        <img src="images/logo.png" class="w-16" alt="Logo">
+                    </a>
+                    <nav id="desktop-nav-island" dir="rtl"
+                        class="hidden lg:flex items-center gap-5 xl:gap-6 px-6 py-2.5 rounded-full bg-white/85 backdrop-blur-md border border-[#F0DDD8]/90 shadow-sm font-arabic-heading pointer-events-auto">
+
+                        <a href="#home"
+                            class="group relative py-0.5 text-[13px] font-semibold text-[#5A3F38] hover:text-[#E57E7B] transition-colors">
+                            الرئيسية
+                            <span
+                                class="absolute bottom-0 inset-x-0 h-[2px] bg-[#E57E7B] origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                        </a>
+
+                        <a href="#about"
+                            class="group relative py-0.5 text-[13px] font-semibold text-[#5A3F38] hover:text-[#E57E7B] transition-colors">
+                            عني
+                            <span
+                                class="absolute bottom-0 inset-x-0 h-[2px] bg-[#E57E7B] origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                        </a>
+
+                        <a href="#services"
+                            class="group relative py-0.5 text-[13px] font-semibold text-[#5A3F38] hover:text-[#E57E7B] transition-colors">
+                            خدماتي
+                            <span
+                                class="absolute bottom-0 inset-x-0 h-[2px] bg-[#E57E7B] origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                        </a>
+
+                        <a href="#portfolio"
+                            class="group relative py-0.5 text-[13px] font-semibold text-[#5A3F38] hover:text-[#E57E7B] transition-colors">
+                            أعمالي
+                            <span
+                                class="absolute bottom-0 inset-x-0 h-[2px] bg-[#E57E7B] origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                        </a>
+
+                        <a href="#shop"
+                            class="group relative py-0.5 text-[13px] font-semibold text-[#5A3F38] hover:text-[#E57E7B] transition-colors">
+                            المتجر
+                            <span
+                                class="absolute bottom-0 inset-x-0 h-[2px] bg-[#E57E7B] origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                        </a>
+
+                        <a href="#commissions"
+                            class="group relative py-0.5 text-[13px] font-semibold text-[#5A3F38] hover:text-[#E57E7B] transition-colors">
+                            الطلبات الخاصة
+                            <span
+                                class="absolute bottom-0 inset-x-0 h-[2px] bg-[#E57E7B] origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                        </a>
+
+                        <a href="#contact"
+                            class="group relative py-0.5 text-[13px] font-semibold text-[#5A3F38] hover:text-[#E57E7B] transition-colors">
+                            تواصل معي
+                            <span
+                                class="absolute bottom-0 inset-x-0 h-[2px] bg-[#E57E7B] origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                        </a>
+                    </nav>
+                    <div class="pointer-events-auto flex items-center gap-2"><button id="header-cta-island"
+                            type="button"
+                            class="hidden sm:inline-flex items-center gap-1.5 px-5 sm:px-6 py-2.5 rounded-full bg-[#E57E7B] hover:bg-[#D46A67] text-white text-xs sm:text-sm font-bold tracking-wide shadow-xs hover:shadow-md transition-all active:scale-95 font-arabic-heading"><span>لنعمل
+                                معاً ♥</span></button><button id="mobile-menu-toggle-island" type="button"
+                            class="lg:hidden p-2 rounded-full backdrop-blur-md border border-[#F0DDD8]/90 text-[#5A3F38] hover:text-[#E57E7B] transition-colors bg-white/85 shadow-xs"
+                            aria-label="تبديل قائمة التنقل"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"
+                                aria-hidden="true">
+                                <path d="M4 5h16"></path>
+                                <path d="M4 12h16"></path>
+                                <path d="M4 19h16"></path>
+                            </svg></button></div>
+                </div>
+            </header>
+            <section class="flex flex-col gap-5 sm:gap-10 w-[40%]">
+                <h1 class="text-[#5A3F38] text-[30px] sm:text-[50px] font-bold leading-[1.2]" >
+                    الحاجات الحلوة بتبان في التفاصيل
+                </h1>
+                <p class="text-[#5A3F38] text-[15px] sm:text-[20px] leading-[1.5] max-w-[600px]">
+                    هاند ميد بتصميمات متظبطة، كل تفصيلة فيها مقصودة.
+                </p>
+                <a href="#contact"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#E57E7B] hover:bg-[#D46A67] text-white text-sm font-bold tracking-wide shadow-xs hover:shadow-md transition-all active:scale-95 font-arabic-heading w-fit">تواصل
+                    معي</a>
+            </section>
+        </section>
+    </main>
 </body>
+
 </html>
