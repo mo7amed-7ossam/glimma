@@ -4,3 +4,8 @@
 4- 
 
 [text-shadow:0_0_5px_#fef7f4,0_0_5px_#fef7f4,0_0_15px_#fef7f4,0_0_15px_#fef7f4,0_0_35px_#fef7f4,0_0_35px_#fef7f4,0_0_70px_#fef7f4,0_0_70px_#fef7f4,0_0_110px_#fef7f4,0_0_110px_#fef7f4,0_0_160px_#fef7f4,0_0_160px_#fef7f4] [filter:drop-shadow(0_0_20px_#fef7f4)_drop-shadow(0_0_40px_#fef7f4)_drop-shadow(0_0_60px_#fef7f4)]
+
+
+                <a href="#contact"
+                    class="block mx-auto lg:mx-0 items-center gap-2 px-6 py-3 rounded-full bg-[#f68189] hover:bg-[#D46A67] text-white text-sm font-bold tracking-wide shadow-xs hover:shadow-md transition-all active:scale-95 font-arabic-heading w-fit z-2 relative">تواصل
+                    معي</a>
