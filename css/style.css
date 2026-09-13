@@ -1,10 +1,8 @@
 body{
     background-image: url("../images/bg.jpg");
     height:3000px;
-    font-family: "El Messiri", sans-serif;
+    /* font-family: "El Messiri", sans-serif; */
+    font-family: "Zain", sans-serif;
     
 }
 
-.title-font{
-    font-family: "Zain", sans-serif;
-}
