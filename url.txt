@@ -9,3 +9,9 @@
                 <a href="#contact"
                     class="block mx-auto lg:mx-0 items-center gap-2 px-6 py-3 rounded-full bg-[#f68189] hover:bg-[#D46A67] text-white text-sm font-bold tracking-wide shadow-xs hover:shadow-md transition-all active:scale-95 font-arabic-heading w-fit z-2 relative">تواصل
                     معي</a>
+
+<section id="about" class="w-full h-[100vh] bg-[#E57E7B]">
+        <div class="w-full h-[100%] flex items-center justify-center">
+            <h1 class="text-white text-[40px] font-bold">عن الفنانة</h1>
+        </div>
+    </section>
